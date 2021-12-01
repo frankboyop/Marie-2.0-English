@@ -18,17 +18,14 @@ from tg_bot.modules.helper_funcs.chat_status import is_user_admin
 from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
-hello {}, my name is PIKACHU TYPE  /help... For command s
-
-Im a group manager bot maintained by MASTER BOY @Master_booy
-Pm/DM to.my sweet owner master for any doubt no support group no support channel
-Because I'm in maintenance
-
+hello {}, my name is PIKACHU 
+Im a group manager bot 
+Hit /help to find out more about how to use me to my full potential.
 
 HELP_STRINGS = """
 
 Hello! my name is PIKACHU.
-
+Glad to meet you
 *Main* available commands:
  - /start: Start the bot...
  - /help: help....
@@ -36,13 +33,12 @@ Hello! my name is PIKACHU.
  - /settings:
    - in PM: To find out what SETTINGS you have set....
    - in a group:
-
 {}
 And the following:
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll of the following commands  / or ! can  be used...\n")
 
 DONATE_STRING = """OH YOU WANT TO DONATE SOORY SIR
-I SAID TO YOU IM UNDER MAINTENANCE SOORY FOR THE INCONVENIENCE"""
+MY OWNER MR FRANK DIDN'T WANT ANY MONEY FROM YOU BECAUSE HE IS RICH"""
 
 IMPORTED = {}
 MIGRATEABLE = []
